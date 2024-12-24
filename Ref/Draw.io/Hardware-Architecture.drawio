@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Page-1" id="1FyS-w6HBW-pn5bI3ifs">
+    <mxGraphModel dx="1366" dy="703" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vFb_heqhI95FXpmSZcQd-2" value="&lt;b&gt;MicroSD&lt;/b&gt;&lt;br&gt;lưu trữ dữ liệu&lt;div&gt;&amp;nbsp;thu thập từ cảm biến&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="160" height="279" as="geometry" />
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-4" value="&lt;b&gt;Cảm biến ECG&lt;/b&gt;&lt;br&gt;thu thập tín hiệu điện tim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-5" value="&lt;b&gt;Cotex-M4&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-6" value="&lt;b&gt;RAM&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="309.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-7" value="&lt;b&gt;Peripherals&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-8" value="&lt;b&gt;DSP Module&lt;/b&gt;&lt;br&gt;lọc nhiễu và cải thiện tín hiệu&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-9" value="&lt;b&gt;Module Wifi&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-10" value="&lt;b&gt;LED/ Loa&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="vFb_heqhI95FXpmSZcQd-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="250" as="sourcePoint" />
+            <mxPoint x="290" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.179;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="249.81" as="sourcePoint" />
+            <mxPoint x="480" y="249.81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vFb_heqhI95FXpmSZcQd-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="419.81" as="sourcePoint" />
+            <mxPoint x="460" y="419.81" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="419.81" as="sourcePoint" />
+            <mxPoint x="300" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="vFb_heqhI95FXpmSZcQd-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="410" as="sourcePoint" />
+            <mxPoint x="350" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="410" />
+              <mxPoint x="260" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFb_heqhI95FXpmSZcQd-18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;glass=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="520" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
